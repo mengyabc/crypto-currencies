@@ -1,0 +1,56 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "camelcase": 0,
+    "import/no-dynamic-require": 0,
+    "prefer-template": 0,
+    "prefer-destructuring": 0,
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "max-len": [1, 256, 2, {"ignoreComments": true}],
+    "quote-props": [1, "consistent-as-needed"],
+    "no-cond-assign": [2, "except-parens"],
+    "radix": 0,
+    "space-infix-ops": 0,
+    "no-unused-vars": [1, {"vars": "local", "args": "none"}],
+    "default-case": 0,
+    "no-else-return": 0,
+    "no-param-reassign": 0,
+    "semi": [2, "never"],
+    "global-require": 0,
+    "indent": ["error", 2, {
+      "VariableDeclarator": { "var": 2, "let": 2, "const": 3 },
+      "CallExpression": {"arguments": "first"},
+      "ArrayExpression": 1,
+      "ObjectExpression": 1,
+      "ImportDeclaration": 1,
+      "ignoreComments": true
+    }],
+    "no-console": 0,
+    "func-names": ["error", "as-needed"],
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "no-undef": 0,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "no-labels": 0,
+    "no-unused-labels": 1,
+    "no-restricted-syntax":0,
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/prefer-default-export": "off",
+    "import/no-named-as-default": 0,
+    "function-paren-newline": ["error", "consistent"]
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      // "jsx": true
+    }
+  }
+}
+
+//Minor changes, based on interesting research.
+//https://blog.javascripting.com/2015/09/07/fine-tuning-airbnbs-eslint-config/

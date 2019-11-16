@@ -1,0 +1,4 @@
+{
+  "presets": ["env", "react", ["env", { "modules": false, "targets": { "browsers": ["since 2017"],  "node": "current"}}], "stage-0"],
+  "plugins": ["react-hot-loader/babel", "transform-decorators-legacy"]
+}
