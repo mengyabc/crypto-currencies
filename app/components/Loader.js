@@ -3,7 +3,7 @@
 * the code here is considerably smaller (in actual bytes) than the equivalent .gif file
 */
 const Loader = () => (
-  <div>
+  <div className="d-flex justify-content-center">
     <svg
       width="80px"
       height="80px"

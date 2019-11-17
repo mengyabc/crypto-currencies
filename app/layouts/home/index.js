@@ -2,6 +2,8 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import { get_currenct_listing } from 'redux_and_actions/actions'
+import PriceTable from 'components/price-table'
+import Loader from 'components/Loader'
 
 export const getBestProfit = (data) => {
   const quotes = data.quotes || []
@@ -46,18 +48,33 @@ class Home extends React.Component {
   }
 
   render() {
+    const { currencies } = this.props
     return (
-      <div className="home-layout">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-md-6">
-              <h1>Left</h1>
-            </div>
-            <div className="col-xs-12 col-md-6">
-              <h1>Right</h1>
+      <div className="home">
+        <div className="home-title">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h1>My Crypto Currencies</h1>
+              </div>
             </div>
           </div>
         </div>
+        { currencies.length === 0 && <Loader /> }
+        {
+          currencies.length !== 0 &&
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="row-title">Best Profit</h2>
+              </div>
+              <div className="col-12">
+                <h2 className="row-title">Price Chart</h2>
+                <PriceTable items={this.props.currencies} />
+              </div>
+            </div>
+          </div>
+        }
       </div>
     )
   }
