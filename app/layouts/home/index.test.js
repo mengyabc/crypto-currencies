@@ -57,7 +57,7 @@ describe('getBestProfit', () => {
         time: '1230',
         price: '37.01',
       },
-      profit: 2.03,
+      profit: '2.03',
     }
     expect(getBestProfit(currency)).toEqual(expected)
   })

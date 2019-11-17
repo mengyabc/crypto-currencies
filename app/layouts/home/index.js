@@ -1,7 +1,37 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-export const getBestProfit = () => ({})
+export const getBestProfit = (data) => {
+  const quotes = data.quotes || []
+  let maxprofit = 0
+  let minprice = Number.MAX_VALUE
+  let buy
+  let sell
+  let mintime
+  quotes.forEach((quote) => {
+    if (quote.price < minprice) {
+      minprice = quote.price
+      mintime = quote.time
+    } else if (quote.price - minprice > maxprofit) {
+      maxprofit = quote.price - minprice
+      buy = {
+        price: minprice,
+        time: mintime,
+      }
+      sell = {
+        price: quote.price,
+        time: quote.time,
+      }
+    }
+  })
+  return {
+    currency: data.currency,
+    date: data.date,
+    buy,
+    sell,
+    profit: maxprofit.toFixed(2),
+  }
+}
 
 class Home extends React.Component {
   constructor(props) {
