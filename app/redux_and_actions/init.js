@@ -21,7 +21,7 @@ export function configureStore(initialState) {
         applyMiddleware(asyncAwait),
     )
 
-    configureStore.native_dispatch=configureStore.dispatch
+    configureStore.native_dispatch = configureStore.dispatch
     const dispatch_wrapper = async function (data) {
       try {
         return await configureStore.native_dispatch(data)
@@ -31,7 +31,7 @@ export function configureStore(initialState) {
       }
     }
 
-    configureStore.dispatch=dispatch_wrapper
+    configureStore.dispatch = dispatch_wrapper
   }
 
   if (module.hot) {

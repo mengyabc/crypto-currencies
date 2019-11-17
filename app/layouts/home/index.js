@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
+import { get_currenct_listing } from 'redux_and_actions/actions'
+
 export const getBestProfit = (data) => {
   const quotes = data.quotes || []
   let maxprofit = 0
@@ -39,6 +41,10 @@ class Home extends React.Component {
     this.state = {}
   }
 
+  componentDidMount() {
+    this.props.get_currenct_listing()
+  }
+
   render() {
     return (
       <div className="home-layout">
@@ -59,11 +65,13 @@ class Home extends React.Component {
 
 function mapStateToProps(state) {
   return {
+    currencies: state.home.currencies,
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
+    get_currenct_listing: data => dispatch(get_currenct_listing(data)),
   }
 }
 
