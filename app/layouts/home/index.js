@@ -1,7 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-class HomeLayout extends React.Component {
+export const getBestProfit = () => ({})
+
+class Home extends React.Component {
   constructor(props) {
     super(props)
     this.state = {}
@@ -35,4 +37,4 @@ function mapDispatchToProps(dispatch) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomeLayout)
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
