@@ -1,0 +1,10 @@
+.site-header {
+  padding: 16px 0 8px;
+  background-color: $primary-color;
+  border-bottom: 8px solid $primary-color-darker;
+
+  h1 {
+    font-size: 24px;
+    color: white;
+  }
+}

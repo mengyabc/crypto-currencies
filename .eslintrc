@@ -43,7 +43,8 @@
     "import/no-named-as-default": 0,
     "function-paren-newline": ["error", "consistent"],
     "object-curly-newline": "off",
-    "react/no-did-update-set-state": 0
+    "react/no-did-update-set-state": 0,
+    "react/no-array-index-key": 0
   },
   "parserOptions": {
     "ecmaVersion": 7,

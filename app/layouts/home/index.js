@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { get_currenct_listing } from 'redux_and_actions/actions'
 import PriceTable from 'components/price-table'
 import FilterButton from 'components/filter-button'
+import ProfitTable from 'components/profit-table'
 import Loader from 'components/loader'
 
 export const getBestProfit = (data) => {
@@ -74,31 +75,24 @@ class Home extends React.Component {
 
     return (
       <div className="home">
-        <div className="home-title">
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <h1>My Crypto Currencies</h1>
-              </div>
-            </div>
-          </div>
-        </div>
         {
           currencies.length !== 0 &&
-          <div className="row">
-            <div className="col-12 d-flex justify-content-center mt-4">
-              <div className="btn-group btn-group-lg" role="group" aria-label="Filter">
-                {
-                  this.currencyFilter.map(filter => (
-                    <FilterButton
-                      key={filter}
-                      text={filter}
-                      active={currencyFilter === filter}
-                      onClick={this.filterCurrencies}
-                      loading={loading}
-                    />
-                  ))
-                }
+          <div className="container">
+            <div className="row">
+              <div className="col-12 d-flex justify-content-center mt-4">
+                <div className="btn-group btn-group-lg" role="group" aria-label="Filter">
+                  {
+                    this.currencyFilter.map(filter => (
+                      <FilterButton
+                        key={filter}
+                        text={filter}
+                        active={currencyFilter === filter}
+                        onClick={this.filterCurrencies}
+                        loading={loading}
+                      />
+                    ))
+                  }
+                </div>
               </div>
             </div>
           </div>
@@ -111,6 +105,15 @@ class Home extends React.Component {
               <div className="col-12">
                 <h2 className="row-title">Best Profit</h2>
               </div>
+            </div>
+            <div className="row">
+              {
+                currencies.map((currency, index) => (
+                  <ProfitTable result={getBestProfit(currency)} key={index} />
+                ))
+              }
+            </div>
+            <div className="row">
               <div className="col-12">
                 <h2 className="row-title">Price Chart</h2>
                 <PriceTable items={currencies} />

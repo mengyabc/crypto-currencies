@@ -3,7 +3,7 @@ import React from 'react'
 import moment from 'moment'
 
 const PriceTable = ({ items }) => (
-  <table className="table">
+  <table className="table table-responsive-sm">
     <thead>
       <tr>
         <th scope="col">Currency</th>

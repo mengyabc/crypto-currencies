@@ -147,7 +147,7 @@ ShallowWrapper {
           </tr>
         </tbody>,
       ],
-      "className": "table",
+      "className": "table table-responsive-sm",
     },
     "ref": null,
     "rendered": Array [
@@ -800,7 +800,7 @@ ShallowWrapper {
             </tr>
           </tbody>,
         ],
-        "className": "table",
+        "className": "table table-responsive-sm",
       },
       "ref": null,
       "rendered": Array [
