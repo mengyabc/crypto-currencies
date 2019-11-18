@@ -1,8 +1,8 @@
 .home {
   .home-title {
     padding: 16px 0 8px;
-    background-color: burlywood;
-    border-bottom: 8px solid darken(burlywood, 30%);
+    background-color: $primary-color;
+    border-bottom: 8px solid $primary-color-darker;
 
     h1 {
       font-size: 24px;

@@ -41,7 +41,9 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/prefer-default-export": "off",
     "import/no-named-as-default": 0,
-    "function-paren-newline": ["error", "consistent"]
+    "function-paren-newline": ["error", "consistent"],
+    "object-curly-newline": "off",
+    "react/no-did-update-set-state": 0
   },
   "parserOptions": {
     "ecmaVersion": 7,

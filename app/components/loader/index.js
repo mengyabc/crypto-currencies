@@ -2,8 +2,10 @@
 * A functional component in react that uses SVG to draw a loader to the screen. Although it looks excessive,
 * the code here is considerably smaller (in actual bytes) than the equivalent .gif file
 */
+import React from 'react'
+
 const Loader = () => (
-  <div className="d-flex justify-content-center">
+  <div className="d-flex justify-content-center mt-5">
     <svg
       width="80px"
       height="80px"

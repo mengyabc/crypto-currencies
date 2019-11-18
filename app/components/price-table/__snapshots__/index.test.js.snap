@@ -1,0 +1,1380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceTable component Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PriceTable
+    items={
+      Array [
+        Object {
+          "currency": "BTC",
+          "date": "20180507",
+          "quotes": Array [
+            Object {
+              "price": "34.98",
+              "time": "0915",
+            },
+            Object {
+              "price": "36.13",
+              "time": "1045",
+            },
+            Object {
+              "price": "37.01",
+              "time": "1230",
+            },
+            Object {
+              "price": "35.98",
+              "time": "1400",
+            },
+            Object {
+              "price": "33.56",
+              "time": "1530",
+            },
+          ],
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              Currency
+            </th>
+            <th
+              scope="col"
+            >
+              Date
+            </th>
+            <th
+              scope="col"
+            >
+              Time
+            </th>
+            <th
+              scope="col"
+            >
+              Price
+            </th>
+          </tr>
+        </thead>,
+        <tbody>
+          <tr>
+            <td>
+              BTC
+            </td>
+            <td>
+              2018-May-07
+            </td>
+            <td>
+              09:15 AM
+            </td>
+            <td>
+              34.98
+            </td>
+          </tr>
+          <tr>
+            <td>
+              BTC
+            </td>
+            <td>
+              2018-May-07
+            </td>
+            <td>
+              10:45 AM
+            </td>
+            <td>
+              36.13
+            </td>
+          </tr>
+          <tr>
+            <td>
+              BTC
+            </td>
+            <td>
+              2018-May-07
+            </td>
+            <td>
+              12:30 PM
+            </td>
+            <td>
+              37.01
+            </td>
+          </tr>
+          <tr>
+            <td>
+              BTC
+            </td>
+            <td>
+              2018-May-07
+            </td>
+            <td>
+              02:00 PM
+            </td>
+            <td>
+              35.98
+            </td>
+          </tr>
+          <tr>
+            <td>
+              BTC
+            </td>
+            <td>
+              2018-May-07
+            </td>
+            <td>
+              03:30 PM
+            </td>
+            <td>
+              33.56
+            </td>
+          </tr>
+        </tbody>,
+      ],
+      "className": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th
+              scope="col"
+            >
+              Currency
+            </th>
+            <th
+              scope="col"
+            >
+              Date
+            </th>
+            <th
+              scope="col"
+            >
+              Time
+            </th>
+            <th
+              scope="col"
+            >
+              Price
+            </th>
+          </tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th
+                scope="col"
+              >
+                Currency
+              </th>,
+              <th
+                scope="col"
+              >
+                Date
+              </th>,
+              <th
+                scope="col"
+              >
+                Time
+              </th>,
+              <th
+                scope="col"
+              >
+                Price
+              </th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Currency",
+                "scope": "col",
+              },
+              "ref": null,
+              "rendered": "Currency",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Date",
+                "scope": "col",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Time",
+                "scope": "col",
+              },
+              "ref": null,
+              "rendered": "Time",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Price",
+                "scope": "col",
+              },
+              "ref": null,
+              "rendered": "Price",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            Array [
+              <tr>
+                <td>
+                  BTC
+                </td>
+                <td>
+                  2018-May-07
+                </td>
+                <td>
+                  09:15 AM
+                </td>
+                <td>
+                  34.98
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  BTC
+                </td>
+                <td>
+                  2018-May-07
+                </td>
+                <td>
+                  10:45 AM
+                </td>
+                <td>
+                  36.13
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  BTC
+                </td>
+                <td>
+                  2018-May-07
+                </td>
+                <td>
+                  12:30 PM
+                </td>
+                <td>
+                  37.01
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  BTC
+                </td>
+                <td>
+                  2018-May-07
+                </td>
+                <td>
+                  02:00 PM
+                </td>
+                <td>
+                  35.98
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  BTC
+                </td>
+                <td>
+                  2018-May-07
+                </td>
+                <td>
+                  03:30 PM
+                </td>
+                <td>
+                  33.56
+                </td>
+              </tr>,
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "20180507 0915",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BTC
+                </td>,
+                <td>
+                  2018-May-07
+                </td>,
+                <td>
+                  09:15 AM
+                </td>,
+                <td>
+                  34.98
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BTC",
+                },
+                "ref": null,
+                "rendered": "BTC",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-May-07",
+                },
+                "ref": null,
+                "rendered": "2018-May-07",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "09:15 AM",
+                },
+                "ref": null,
+                "rendered": "09:15 AM",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "34.98",
+                },
+                "ref": null,
+                "rendered": "34.98",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "20180507 1045",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BTC
+                </td>,
+                <td>
+                  2018-May-07
+                </td>,
+                <td>
+                  10:45 AM
+                </td>,
+                <td>
+                  36.13
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BTC",
+                },
+                "ref": null,
+                "rendered": "BTC",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-May-07",
+                },
+                "ref": null,
+                "rendered": "2018-May-07",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "10:45 AM",
+                },
+                "ref": null,
+                "rendered": "10:45 AM",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "36.13",
+                },
+                "ref": null,
+                "rendered": "36.13",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "20180507 1230",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BTC
+                </td>,
+                <td>
+                  2018-May-07
+                </td>,
+                <td>
+                  12:30 PM
+                </td>,
+                <td>
+                  37.01
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BTC",
+                },
+                "ref": null,
+                "rendered": "BTC",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-May-07",
+                },
+                "ref": null,
+                "rendered": "2018-May-07",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "12:30 PM",
+                },
+                "ref": null,
+                "rendered": "12:30 PM",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "37.01",
+                },
+                "ref": null,
+                "rendered": "37.01",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "20180507 1400",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BTC
+                </td>,
+                <td>
+                  2018-May-07
+                </td>,
+                <td>
+                  02:00 PM
+                </td>,
+                <td>
+                  35.98
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BTC",
+                },
+                "ref": null,
+                "rendered": "BTC",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-May-07",
+                },
+                "ref": null,
+                "rendered": "2018-May-07",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "02:00 PM",
+                },
+                "ref": null,
+                "rendered": "02:00 PM",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "35.98",
+                },
+                "ref": null,
+                "rendered": "35.98",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "20180507 1530",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BTC
+                </td>,
+                <td>
+                  2018-May-07
+                </td>,
+                <td>
+                  03:30 PM
+                </td>,
+                <td>
+                  33.56
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BTC",
+                },
+                "ref": null,
+                "rendered": "BTC",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-May-07",
+                },
+                "ref": null,
+                "rendered": "2018-May-07",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "03:30 PM",
+                },
+                "ref": null,
+                "rendered": "03:30 PM",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "33.56",
+                },
+                "ref": null,
+                "rendered": "33.56",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+              <th
+                scope="col"
+              >
+                Currency
+              </th>
+              <th
+                scope="col"
+              >
+                Date
+              </th>
+              <th
+                scope="col"
+              >
+                Time
+              </th>
+              <th
+                scope="col"
+              >
+                Price
+              </th>
+            </tr>
+          </thead>,
+          <tbody>
+            <tr>
+              <td>
+                BTC
+              </td>
+              <td>
+                2018-May-07
+              </td>
+              <td>
+                09:15 AM
+              </td>
+              <td>
+                34.98
+              </td>
+            </tr>
+            <tr>
+              <td>
+                BTC
+              </td>
+              <td>
+                2018-May-07
+              </td>
+              <td>
+                10:45 AM
+              </td>
+              <td>
+                36.13
+              </td>
+            </tr>
+            <tr>
+              <td>
+                BTC
+              </td>
+              <td>
+                2018-May-07
+              </td>
+              <td>
+                12:30 PM
+              </td>
+              <td>
+                37.01
+              </td>
+            </tr>
+            <tr>
+              <td>
+                BTC
+              </td>
+              <td>
+                2018-May-07
+              </td>
+              <td>
+                02:00 PM
+              </td>
+              <td>
+                35.98
+              </td>
+            </tr>
+            <tr>
+              <td>
+                BTC
+              </td>
+              <td>
+                2018-May-07
+              </td>
+              <td>
+                03:30 PM
+              </td>
+              <td>
+                33.56
+              </td>
+            </tr>
+          </tbody>,
+        ],
+        "className": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th
+                scope="col"
+              >
+                Currency
+              </th>
+              <th
+                scope="col"
+              >
+                Date
+              </th>
+              <th
+                scope="col"
+              >
+                Time
+              </th>
+              <th
+                scope="col"
+              >
+                Price
+              </th>
+            </tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th
+                  scope="col"
+                >
+                  Currency
+                </th>,
+                <th
+                  scope="col"
+                >
+                  Date
+                </th>,
+                <th
+                  scope="col"
+                >
+                  Time
+                </th>,
+                <th
+                  scope="col"
+                >
+                  Price
+                </th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Currency",
+                  "scope": "col",
+                },
+                "ref": null,
+                "rendered": "Currency",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date",
+                  "scope": "col",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Time",
+                  "scope": "col",
+                },
+                "ref": null,
+                "rendered": "Time",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Price",
+                  "scope": "col",
+                },
+                "ref": null,
+                "rendered": "Price",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              Array [
+                <tr>
+                  <td>
+                    BTC
+                  </td>
+                  <td>
+                    2018-May-07
+                  </td>
+                  <td>
+                    09:15 AM
+                  </td>
+                  <td>
+                    34.98
+                  </td>
+                </tr>,
+                <tr>
+                  <td>
+                    BTC
+                  </td>
+                  <td>
+                    2018-May-07
+                  </td>
+                  <td>
+                    10:45 AM
+                  </td>
+                  <td>
+                    36.13
+                  </td>
+                </tr>,
+                <tr>
+                  <td>
+                    BTC
+                  </td>
+                  <td>
+                    2018-May-07
+                  </td>
+                  <td>
+                    12:30 PM
+                  </td>
+                  <td>
+                    37.01
+                  </td>
+                </tr>,
+                <tr>
+                  <td>
+                    BTC
+                  </td>
+                  <td>
+                    2018-May-07
+                  </td>
+                  <td>
+                    02:00 PM
+                  </td>
+                  <td>
+                    35.98
+                  </td>
+                </tr>,
+                <tr>
+                  <td>
+                    BTC
+                  </td>
+                  <td>
+                    2018-May-07
+                  </td>
+                  <td>
+                    03:30 PM
+                  </td>
+                  <td>
+                    33.56
+                  </td>
+                </tr>,
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "20180507 0915",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BTC
+                  </td>,
+                  <td>
+                    2018-May-07
+                  </td>,
+                  <td>
+                    09:15 AM
+                  </td>,
+                  <td>
+                    34.98
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BTC",
+                  },
+                  "ref": null,
+                  "rendered": "BTC",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-May-07",
+                  },
+                  "ref": null,
+                  "rendered": "2018-May-07",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "09:15 AM",
+                  },
+                  "ref": null,
+                  "rendered": "09:15 AM",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "34.98",
+                  },
+                  "ref": null,
+                  "rendered": "34.98",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "20180507 1045",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BTC
+                  </td>,
+                  <td>
+                    2018-May-07
+                  </td>,
+                  <td>
+                    10:45 AM
+                  </td>,
+                  <td>
+                    36.13
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BTC",
+                  },
+                  "ref": null,
+                  "rendered": "BTC",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-May-07",
+                  },
+                  "ref": null,
+                  "rendered": "2018-May-07",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "10:45 AM",
+                  },
+                  "ref": null,
+                  "rendered": "10:45 AM",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "36.13",
+                  },
+                  "ref": null,
+                  "rendered": "36.13",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "20180507 1230",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BTC
+                  </td>,
+                  <td>
+                    2018-May-07
+                  </td>,
+                  <td>
+                    12:30 PM
+                  </td>,
+                  <td>
+                    37.01
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BTC",
+                  },
+                  "ref": null,
+                  "rendered": "BTC",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-May-07",
+                  },
+                  "ref": null,
+                  "rendered": "2018-May-07",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "12:30 PM",
+                  },
+                  "ref": null,
+                  "rendered": "12:30 PM",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "37.01",
+                  },
+                  "ref": null,
+                  "rendered": "37.01",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "20180507 1400",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BTC
+                  </td>,
+                  <td>
+                    2018-May-07
+                  </td>,
+                  <td>
+                    02:00 PM
+                  </td>,
+                  <td>
+                    35.98
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BTC",
+                  },
+                  "ref": null,
+                  "rendered": "BTC",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-May-07",
+                  },
+                  "ref": null,
+                  "rendered": "2018-May-07",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "02:00 PM",
+                  },
+                  "ref": null,
+                  "rendered": "02:00 PM",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "35.98",
+                  },
+                  "ref": null,
+                  "rendered": "35.98",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "20180507 1530",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BTC
+                  </td>,
+                  <td>
+                    2018-May-07
+                  </td>,
+                  <td>
+                    03:30 PM
+                  </td>,
+                  <td>
+                    33.56
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BTC",
+                  },
+                  "ref": null,
+                  "rendered": "BTC",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-May-07",
+                  },
+                  "ref": null,
+                  "rendered": "2018-May-07",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "03:30 PM",
+                  },
+                  "ref": null,
+                  "rendered": "03:30 PM",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "33.56",
+                  },
+                  "ref": null,
+                  "rendered": "33.56",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceTable component Should be disabled when loading 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+    "wrapInvoke": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "active": true,
+      "loading": true,
+      "onClick": [MockFunction],
+      "text": "button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <button
+        class="btn btn-filter active"
+        disabled=""
+        type="button"
+        value="button"
+      >
+        button
+      </button>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "button",
+        "className": "btn btn-filter active",
+        "disabled": true,
+        "onClick": [MockFunction],
+        "type": "button",
+        "value": "button",
+      },
+      "ref": null,
+      "rendered": Array [
+        "button",
+      ],
+      "type": "button",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "active": true,
+        "loading": true,
+        "onClick": [MockFunction],
+        "text": "button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <button
+          class="btn btn-filter active"
+          disabled=""
+          type="button"
+          value="button"
+        >
+          button
+        </button>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "button",
+          "className": "btn btn-filter active",
+          "disabled": true,
+          "onClick": [MockFunction],
+          "type": "button",
+          "value": "button",
+        },
+        "ref": null,
+        "rendered": Array [
+          "button",
+        ],
+        "type": "button",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <FilterButton
+    active={true}
+    loading={true}
+    onClick={[MockFunction]}
+    text="button"
+  />,
+  Symbol(enzyme.__updatedBy__): null,
+}
+`;
+
+exports[`PriceTable component Should render correctly 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+    "wrapInvoke": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "active": true,
+      "loading": false,
+      "onClick": [MockFunction],
+      "text": "button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <button
+        class="btn btn-filter active"
+        type="button"
+        value="button"
+      >
+        button
+      </button>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "button",
+        "className": "btn btn-filter active",
+        "disabled": false,
+        "onClick": [MockFunction],
+        "type": "button",
+        "value": "button",
+      },
+      "ref": null,
+      "rendered": Array [
+        "button",
+      ],
+      "type": "button",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "active": true,
+        "loading": false,
+        "onClick": [MockFunction],
+        "text": "button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <button
+          class="btn btn-filter active"
+          type="button"
+          value="button"
+        >
+          button
+        </button>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "button",
+          "className": "btn btn-filter active",
+          "disabled": false,
+          "onClick": [MockFunction],
+          "type": "button",
+          "value": "button",
+        },
+        "ref": null,
+        "rendered": Array [
+          "button",
+        ],
+        "type": "button",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <FilterButton
+    active={true}
+    loading={false}
+    onClick={[MockFunction]}
+    text="button"
+  />,
+  Symbol(enzyme.__updatedBy__): null,
+}
+`;

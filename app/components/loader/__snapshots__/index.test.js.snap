@@ -1,0 +1,3189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceTable component Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Loader />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <svg
+        className="uil-spin"
+        height="80px"
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+        width="80px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          className="bk"
+          fill="none"
+          height="100"
+          width="100"
+          x="0"
+          y="0"
+        />
+        <g
+          transform="translate(50 50)"
+        >
+          <g
+            transform="rotate(0) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(45) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.12s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.12s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(90) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.25s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.25s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(135) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.37s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.37s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(180) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.5s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.5s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(225) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.62s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.62s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(270) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.75s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.75s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+          <g
+            transform="rotate(315) translate(34 0)"
+          >
+            <circle
+              cx="0"
+              cy="0"
+              fill="#000"
+              r="8"
+            >
+              <animate
+                attributeName="opacity"
+                begin="0.87s"
+                dur="1s"
+                from="1"
+                repeatCount="indefinite"
+                to="0.1"
+              />
+              <animateTransform
+                attributeName="transform"
+                begin="0.87s"
+                dur="1s"
+                from="1.5"
+                repeatCount="indefinite"
+                to="1"
+                type="scale"
+              />
+            </circle>
+          </g>
+        </g>
+      </svg>,
+      "className": "d-flex justify-content-center mt-5",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <rect
+            className="bk"
+            fill="none"
+            height="100"
+            width="100"
+            x="0"
+            y="0"
+          />,
+          <g
+            transform="translate(50 50)"
+          >
+            <g
+              transform="rotate(0) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(45) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.12s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.12s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(90) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.25s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.25s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(135) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.37s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.37s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(180) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.5s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.5s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(225) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.62s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.62s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(270) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.75s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.75s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(315) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.87s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.87s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+          </g>,
+        ],
+        "className": "uil-spin",
+        "height": "80px",
+        "preserveAspectRatio": "xMidYMid",
+        "viewBox": "0 0 100 100",
+        "width": "80px",
+        "xmlns": "http://www.w3.org/2000/svg",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "bk",
+            "fill": "none",
+            "height": "100",
+            "width": "100",
+            "x": "0",
+            "y": "0",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "rect",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <g
+                transform="rotate(0) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(45) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.12s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.12s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(90) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.25s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.25s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(135) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.37s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.37s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(180) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.5s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.5s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(225) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.62s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.62s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(270) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.75s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.75s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+              <g
+                transform="rotate(315) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.87s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.87s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>,
+            ],
+            "transform": "translate(50 50)",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(0) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.12s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.12s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(45) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.12s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.12s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.12s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.12s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.25s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.25s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(90) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.25s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.25s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.25s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.25s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.37s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.37s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(135) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.37s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.37s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.37s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.37s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.5s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.5s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(180) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.5s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.5s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.5s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.5s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.62s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.62s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(225) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.62s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.62s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.62s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.62s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.75s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.75s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(270) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.75s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.75s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.75s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.75s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.87s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.87s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>,
+                "transform": "rotate(315) translate(34 0)",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <animate
+                      attributeName="opacity"
+                      begin="0.87s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />,
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.87s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />,
+                  ],
+                  "cx": "0",
+                  "cy": "0",
+                  "fill": "#000",
+                  "r": "8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "opacity",
+                      "begin": "0.87s",
+                      "dur": "1s",
+                      "from": "1",
+                      "repeatCount": "indefinite",
+                      "to": "0.1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animate",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "attributeName": "transform",
+                      "begin": "0.87s",
+                      "dur": "1s",
+                      "from": "1.5",
+                      "repeatCount": "indefinite",
+                      "to": "1",
+                      "type": "scale",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "animateTransform",
+                  },
+                ],
+                "type": "circle",
+              },
+              "type": "g",
+            },
+          ],
+          "type": "g",
+        },
+      ],
+      "type": "svg",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <svg
+          className="uil-spin"
+          height="80px"
+          preserveAspectRatio="xMidYMid"
+          viewBox="0 0 100 100"
+          width="80px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            className="bk"
+            fill="none"
+            height="100"
+            width="100"
+            x="0"
+            y="0"
+          />
+          <g
+            transform="translate(50 50)"
+          >
+            <g
+              transform="rotate(0) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(45) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.12s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.12s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(90) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.25s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.25s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(135) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.37s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.37s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(180) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.5s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.5s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(225) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.62s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.62s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(270) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.75s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.75s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+            <g
+              transform="rotate(315) translate(34 0)"
+            >
+              <circle
+                cx="0"
+                cy="0"
+                fill="#000"
+                r="8"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin="0.87s"
+                  dur="1s"
+                  from="1"
+                  repeatCount="indefinite"
+                  to="0.1"
+                />
+                <animateTransform
+                  attributeName="transform"
+                  begin="0.87s"
+                  dur="1s"
+                  from="1.5"
+                  repeatCount="indefinite"
+                  to="1"
+                  type="scale"
+                />
+              </circle>
+            </g>
+          </g>
+        </svg>,
+        "className": "d-flex justify-content-center mt-5",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <rect
+              className="bk"
+              fill="none"
+              height="100"
+              width="100"
+              x="0"
+              y="0"
+            />,
+            <g
+              transform="translate(50 50)"
+            >
+              <g
+                transform="rotate(0) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(45) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.12s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.12s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(90) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.25s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.25s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(135) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.37s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.37s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(180) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.5s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.5s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(225) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.62s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.62s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(270) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.75s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.75s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+              <g
+                transform="rotate(315) translate(34 0)"
+              >
+                <circle
+                  cx="0"
+                  cy="0"
+                  fill="#000"
+                  r="8"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin="0.87s"
+                    dur="1s"
+                    from="1"
+                    repeatCount="indefinite"
+                    to="0.1"
+                  />
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0.87s"
+                    dur="1s"
+                    from="1.5"
+                    repeatCount="indefinite"
+                    to="1"
+                    type="scale"
+                  />
+                </circle>
+              </g>
+            </g>,
+          ],
+          "className": "uil-spin",
+          "height": "80px",
+          "preserveAspectRatio": "xMidYMid",
+          "viewBox": "0 0 100 100",
+          "width": "80px",
+          "xmlns": "http://www.w3.org/2000/svg",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "bk",
+              "fill": "none",
+              "height": "100",
+              "width": "100",
+              "x": "0",
+              "y": "0",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "rect",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <g
+                  transform="rotate(0) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(45) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.12s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.12s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(90) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.25s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.25s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(135) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.37s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.37s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(180) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.5s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.5s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(225) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.62s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.62s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(270) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.75s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.75s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+                <g
+                  transform="rotate(315) translate(34 0)"
+                >
+                  <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.87s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.87s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>
+                </g>,
+              ],
+              "transform": "translate(50 50)",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(0) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.12s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.12s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(45) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.12s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.12s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.12s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.12s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.25s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.25s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(90) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.25s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.25s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.25s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.25s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.37s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.37s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(135) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.37s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.37s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.37s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.37s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.5s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.5s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(180) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.5s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.5s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.5s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.5s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.62s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.62s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(225) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.62s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.62s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.62s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.62s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.75s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.75s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(270) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.75s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.75s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.75s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.75s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <circle
+                    cx="0"
+                    cy="0"
+                    fill="#000"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin="0.87s"
+                      dur="1s"
+                      from="1"
+                      repeatCount="indefinite"
+                      to="0.1"
+                    />
+                    <animateTransform
+                      attributeName="transform"
+                      begin="0.87s"
+                      dur="1s"
+                      from="1.5"
+                      repeatCount="indefinite"
+                      to="1"
+                      type="scale"
+                    />
+                  </circle>,
+                  "transform": "rotate(315) translate(34 0)",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <animate
+                        attributeName="opacity"
+                        begin="0.87s"
+                        dur="1s"
+                        from="1"
+                        repeatCount="indefinite"
+                        to="0.1"
+                      />,
+                      <animateTransform
+                        attributeName="transform"
+                        begin="0.87s"
+                        dur="1s"
+                        from="1.5"
+                        repeatCount="indefinite"
+                        to="1"
+                        type="scale"
+                      />,
+                    ],
+                    "cx": "0",
+                    "cy": "0",
+                    "fill": "#000",
+                    "r": "8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "opacity",
+                        "begin": "0.87s",
+                        "dur": "1s",
+                        "from": "1",
+                        "repeatCount": "indefinite",
+                        "to": "0.1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animate",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "attributeName": "transform",
+                        "begin": "0.87s",
+                        "dur": "1s",
+                        "from": "1.5",
+                        "repeatCount": "indefinite",
+                        "to": "1",
+                        "type": "scale",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "animateTransform",
+                    },
+                  ],
+                  "type": "circle",
+                },
+                "type": "g",
+              },
+            ],
+            "type": "g",
+          },
+        ],
+        "type": "svg",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
