@@ -5,6 +5,11 @@ import DatePicker from 'react-datepicker'
 const FilterDatepicker = ({ onClick }) => {
   const [date, setDate] = useState('')
 
+  const handleChange = (newDate) => {
+    setDate(newDate)
+    if (!newDate) onClick('')
+  }
+
   const handleFilter = () => {
     const dateSelected = date ? moment(date).format('YYYYMMDD') : ''
     onClick(dateSelected)
@@ -14,7 +19,7 @@ const FilterDatepicker = ({ onClick }) => {
     <Fragment>
       <DatePicker
         selected={date}
-        onChange={newDate => setDate(newDate)}
+        onChange={handleChange}
         dateFormat="dd/MM/yyyy"
         isClearable
         placeholderText="Click to select a date"
