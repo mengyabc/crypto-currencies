@@ -6,6 +6,7 @@ import PriceTable from 'components/price-table'
 import FilterButton from 'components/filter-button'
 import ProfitTable from 'components/profit-table'
 import Loader from 'components/loader'
+import FilterDatepicker from 'components/filter-datepicker'
 
 export const getBestProfit = (data) => {
   const quotes = data.quotes || []
@@ -44,6 +45,7 @@ class Home extends React.Component {
     super(props)
     this.state = {
       currencyFilter: 'All',
+      dateFilter: '',
       loading: true,
     }
     // Assuming we have filter API returned with following data
@@ -66,7 +68,22 @@ class Home extends React.Component {
       currencyFilter: value,
       loading: true,
     })
-    this.props.get_currenct_listing({ currency: value === 'All' ? '' : value })
+    this.props.get_currenct_listing({
+      currency: value === 'All' ? '' : value,
+      date: this.state.dateFilter,
+    })
+  }
+
+  filterDate = (date) => {
+    console.log(date)
+    this.setState({
+      dateFilter: date,
+      loading: true,
+    })
+    this.props.get_currenct_listing({
+      currency: this.state.currencyFilter === 'All' ? '' : this.state.currencyFilter,
+      date,
+    })
   }
 
   render() {
@@ -75,28 +92,28 @@ class Home extends React.Component {
 
     return (
       <div className="home">
-        {
-          currencies.length !== 0 &&
-          <div className="container">
-            <div className="row">
-              <div className="col-12 d-flex justify-content-center mt-4">
-                <div className="btn-group btn-group-lg" role="group" aria-label="Filter">
-                  {
-                    this.currencyFilter.map(filter => (
-                      <FilterButton
-                        key={filter}
-                        text={filter}
-                        active={currencyFilter === filter}
-                        onClick={this.filterCurrencies}
-                        loading={loading}
-                      />
-                    ))
-                  }
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-12 d-flex justify-content-center mt-4">
+              <div className="btn-group btn-group-lg" role="group" aria-label="Filter">
+                {
+                  this.currencyFilter.map(filter => (
+                    <FilterButton
+                      key={filter}
+                      text={filter}
+                      active={currencyFilter === filter}
+                      onClick={this.filterCurrencies}
+                      loading={loading}
+                    />
+                  ))
+                }
               </div>
             </div>
+            <div className="col-12 d-flex justify-content-center mt-4">
+              <FilterDatepicker onClick={this.filterDate} />
+            </div>
           </div>
-        }
+        </div>
         { loading && <Loader /> }
         {
           !loading &&

@@ -19,9 +19,9 @@ const PriceTable = ({ items }) => (
           return (
             <tr key={timestamp}>
               <td>{item.currency}</td>
-              <td>{moment(timestamp).format('YYYY-MMMM-DD')}</td>
+              <td>{moment(timestamp).format('YYYY-MM-DD')}</td>
               <td>{moment(timestamp).format('hh:mm A')}</td>
-              <td>{quote.price}</td>
+              <td>{`$${quote.price}`}</td>
             </tr>
           )
         }))

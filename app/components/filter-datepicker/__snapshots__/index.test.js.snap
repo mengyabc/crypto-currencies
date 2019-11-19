@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDatepicker component Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FilterDatepicker />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <t
+          allowSameDay={false}
+          dateFormat="dd/MM/yyyy"
+          dateFormatCalendar="LLLL yyyy"
+          disabled={false}
+          disabledKeyboardNavigation={false}
+          dropdownMode="scroll"
+          inlineFocusSelectedMonth={false}
+          isClearable={true}
+          monthsShown={1}
+          nextMonthButtonLabel="Next Month"
+          nextYearButtonLabel="Next Year"
+          onBlur={[Function]}
+          onCalendarClose={[Function]}
+          onCalendarOpen={[Function]}
+          onChange={[Function]}
+          onClickOutside={[Function]}
+          onFocus={[Function]}
+          onInputClick={[Function]}
+          onInputError={[Function]}
+          onKeyDown={[Function]}
+          onMonthChange={[Function]}
+          onSelect={[Function]}
+          onYearChange={[Function]}
+          placeholderText="Click to select a date"
+          preventOpenOnFocus={false}
+          previousMonthButtonLabel="Previous Month"
+          previousYearButtonLabel="Previous Year"
+          readOnly={false}
+          renderDayContents={[Function]}
+          selected=""
+          shouldCloseOnSelect={true}
+          showMonthYearPicker={false}
+          showPopperArrow={true}
+          showPreviousMonths={false}
+          showQuarterYearPicker={false}
+          showTimeInput={false}
+          showTimeSelect={false}
+          strictParsing={false}
+          timeCaption="Time"
+          timeInputLabel="Time"
+          timeIntervals={30}
+          withPortal={false}
+        />,
+        <button
+          className="btn btn-sm btn-filter"
+          onClick={[Function]}
+          type="button"
+        >
+          Filter
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "allowSameDay": false,
+          "dateFormat": "dd/MM/yyyy",
+          "dateFormatCalendar": "LLLL yyyy",
+          "disabled": false,
+          "disabledKeyboardNavigation": false,
+          "dropdownMode": "scroll",
+          "inlineFocusSelectedMonth": false,
+          "isClearable": true,
+          "monthsShown": 1,
+          "nextMonthButtonLabel": "Next Month",
+          "nextYearButtonLabel": "Next Year",
+          "onBlur": [Function],
+          "onCalendarClose": [Function],
+          "onCalendarOpen": [Function],
+          "onChange": [Function],
+          "onClickOutside": [Function],
+          "onFocus": [Function],
+          "onInputClick": [Function],
+          "onInputError": [Function],
+          "onKeyDown": [Function],
+          "onMonthChange": [Function],
+          "onSelect": [Function],
+          "onYearChange": [Function],
+          "placeholderText": "Click to select a date",
+          "preventOpenOnFocus": false,
+          "previousMonthButtonLabel": "Previous Month",
+          "previousYearButtonLabel": "Previous Year",
+          "readOnly": false,
+          "renderDayContents": [Function],
+          "selected": "",
+          "shouldCloseOnSelect": true,
+          "showMonthYearPicker": false,
+          "showPopperArrow": true,
+          "showPreviousMonths": false,
+          "showQuarterYearPicker": false,
+          "showTimeInput": false,
+          "showTimeSelect": false,
+          "strictParsing": false,
+          "timeCaption": "Time",
+          "timeInputLabel": "Time",
+          "timeIntervals": 30,
+          "withPortal": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Filter",
+          "className": "btn btn-sm btn-filter",
+          "onClick": [Function],
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": "Filter",
+        "type": "button",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <t
+            allowSameDay={false}
+            dateFormat="dd/MM/yyyy"
+            dateFormatCalendar="LLLL yyyy"
+            disabled={false}
+            disabledKeyboardNavigation={false}
+            dropdownMode="scroll"
+            inlineFocusSelectedMonth={false}
+            isClearable={true}
+            monthsShown={1}
+            nextMonthButtonLabel="Next Month"
+            nextYearButtonLabel="Next Year"
+            onBlur={[Function]}
+            onCalendarClose={[Function]}
+            onCalendarOpen={[Function]}
+            onChange={[Function]}
+            onClickOutside={[Function]}
+            onFocus={[Function]}
+            onInputClick={[Function]}
+            onInputError={[Function]}
+            onKeyDown={[Function]}
+            onMonthChange={[Function]}
+            onSelect={[Function]}
+            onYearChange={[Function]}
+            placeholderText="Click to select a date"
+            preventOpenOnFocus={false}
+            previousMonthButtonLabel="Previous Month"
+            previousYearButtonLabel="Previous Year"
+            readOnly={false}
+            renderDayContents={[Function]}
+            selected=""
+            shouldCloseOnSelect={true}
+            showMonthYearPicker={false}
+            showPopperArrow={true}
+            showPreviousMonths={false}
+            showQuarterYearPicker={false}
+            showTimeInput={false}
+            showTimeSelect={false}
+            strictParsing={false}
+            timeCaption="Time"
+            timeInputLabel="Time"
+            timeIntervals={30}
+            withPortal={false}
+          />,
+          <button
+            className="btn btn-sm btn-filter"
+            onClick={[Function]}
+            type="button"
+          >
+            Filter
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "allowSameDay": false,
+            "dateFormat": "dd/MM/yyyy",
+            "dateFormatCalendar": "LLLL yyyy",
+            "disabled": false,
+            "disabledKeyboardNavigation": false,
+            "dropdownMode": "scroll",
+            "inlineFocusSelectedMonth": false,
+            "isClearable": true,
+            "monthsShown": 1,
+            "nextMonthButtonLabel": "Next Month",
+            "nextYearButtonLabel": "Next Year",
+            "onBlur": [Function],
+            "onCalendarClose": [Function],
+            "onCalendarOpen": [Function],
+            "onChange": [Function],
+            "onClickOutside": [Function],
+            "onFocus": [Function],
+            "onInputClick": [Function],
+            "onInputError": [Function],
+            "onKeyDown": [Function],
+            "onMonthChange": [Function],
+            "onSelect": [Function],
+            "onYearChange": [Function],
+            "placeholderText": "Click to select a date",
+            "preventOpenOnFocus": false,
+            "previousMonthButtonLabel": "Previous Month",
+            "previousYearButtonLabel": "Previous Year",
+            "readOnly": false,
+            "renderDayContents": [Function],
+            "selected": "",
+            "shouldCloseOnSelect": true,
+            "showMonthYearPicker": false,
+            "showPopperArrow": true,
+            "showPreviousMonths": false,
+            "showQuarterYearPicker": false,
+            "showTimeInput": false,
+            "showTimeSelect": false,
+            "strictParsing": false,
+            "timeCaption": "Time",
+            "timeInputLabel": "Time",
+            "timeIntervals": 30,
+            "withPortal": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Filter",
+            "className": "btn btn-sm btn-filter",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": "Filter",
+          "type": "button",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

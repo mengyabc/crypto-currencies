@@ -80,13 +80,13 @@ ShallowWrapper {
               BTC
             </td>
             <td>
-              2018-May-07
+              2018-05-07
             </td>
             <td>
               09:15 AM
             </td>
             <td>
-              34.98
+              $34.98
             </td>
           </tr>
           <tr>
@@ -94,13 +94,13 @@ ShallowWrapper {
               BTC
             </td>
             <td>
-              2018-May-07
+              2018-05-07
             </td>
             <td>
               10:45 AM
             </td>
             <td>
-              36.13
+              $36.13
             </td>
           </tr>
           <tr>
@@ -108,13 +108,13 @@ ShallowWrapper {
               BTC
             </td>
             <td>
-              2018-May-07
+              2018-05-07
             </td>
             <td>
               12:30 PM
             </td>
             <td>
-              37.01
+              $37.01
             </td>
           </tr>
           <tr>
@@ -122,13 +122,13 @@ ShallowWrapper {
               BTC
             </td>
             <td>
-              2018-May-07
+              2018-05-07
             </td>
             <td>
               02:00 PM
             </td>
             <td>
-              35.98
+              $35.98
             </td>
           </tr>
           <tr>
@@ -136,13 +136,13 @@ ShallowWrapper {
               BTC
             </td>
             <td>
-              2018-May-07
+              2018-05-07
             </td>
             <td>
               03:30 PM
             </td>
             <td>
-              33.56
+              $33.56
             </td>
           </tr>
         </tbody>,
@@ -275,13 +275,13 @@ ShallowWrapper {
                   BTC
                 </td>
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>
                 <td>
                   09:15 AM
                 </td>
                 <td>
-                  34.98
+                  $34.98
                 </td>
               </tr>,
               <tr>
@@ -289,13 +289,13 @@ ShallowWrapper {
                   BTC
                 </td>
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>
                 <td>
                   10:45 AM
                 </td>
                 <td>
-                  36.13
+                  $36.13
                 </td>
               </tr>,
               <tr>
@@ -303,13 +303,13 @@ ShallowWrapper {
                   BTC
                 </td>
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>
                 <td>
                   12:30 PM
                 </td>
                 <td>
-                  37.01
+                  $37.01
                 </td>
               </tr>,
               <tr>
@@ -317,13 +317,13 @@ ShallowWrapper {
                   BTC
                 </td>
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>
                 <td>
                   02:00 PM
                 </td>
                 <td>
-                  35.98
+                  $35.98
                 </td>
               </tr>,
               <tr>
@@ -331,13 +331,13 @@ ShallowWrapper {
                   BTC
                 </td>
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>
                 <td>
                   03:30 PM
                 </td>
                 <td>
-                  33.56
+                  $33.56
                 </td>
               </tr>,
             ],
@@ -355,13 +355,13 @@ ShallowWrapper {
                   BTC
                 </td>,
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>,
                 <td>
                   09:15 AM
                 </td>,
                 <td>
-                  34.98
+                  $34.98
                 </td>,
               ],
             },
@@ -383,10 +383,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-May-07",
+                  "children": "2018-05-07",
                 },
                 "ref": null,
-                "rendered": "2018-May-07",
+                "rendered": "2018-05-07",
                 "type": "td",
               },
               Object {
@@ -405,10 +405,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "34.98",
+                  "children": "$34.98",
                 },
                 "ref": null,
-                "rendered": "34.98",
+                "rendered": "$34.98",
                 "type": "td",
               },
             ],
@@ -424,13 +424,13 @@ ShallowWrapper {
                   BTC
                 </td>,
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>,
                 <td>
                   10:45 AM
                 </td>,
                 <td>
-                  36.13
+                  $36.13
                 </td>,
               ],
             },
@@ -452,10 +452,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-May-07",
+                  "children": "2018-05-07",
                 },
                 "ref": null,
-                "rendered": "2018-May-07",
+                "rendered": "2018-05-07",
                 "type": "td",
               },
               Object {
@@ -474,10 +474,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "36.13",
+                  "children": "$36.13",
                 },
                 "ref": null,
-                "rendered": "36.13",
+                "rendered": "$36.13",
                 "type": "td",
               },
             ],
@@ -493,13 +493,13 @@ ShallowWrapper {
                   BTC
                 </td>,
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>,
                 <td>
                   12:30 PM
                 </td>,
                 <td>
-                  37.01
+                  $37.01
                 </td>,
               ],
             },
@@ -521,10 +521,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-May-07",
+                  "children": "2018-05-07",
                 },
                 "ref": null,
-                "rendered": "2018-May-07",
+                "rendered": "2018-05-07",
                 "type": "td",
               },
               Object {
@@ -543,10 +543,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "37.01",
+                  "children": "$37.01",
                 },
                 "ref": null,
-                "rendered": "37.01",
+                "rendered": "$37.01",
                 "type": "td",
               },
             ],
@@ -562,13 +562,13 @@ ShallowWrapper {
                   BTC
                 </td>,
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>,
                 <td>
                   02:00 PM
                 </td>,
                 <td>
-                  35.98
+                  $35.98
                 </td>,
               ],
             },
@@ -590,10 +590,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-May-07",
+                  "children": "2018-05-07",
                 },
                 "ref": null,
-                "rendered": "2018-May-07",
+                "rendered": "2018-05-07",
                 "type": "td",
               },
               Object {
@@ -612,10 +612,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "35.98",
+                  "children": "$35.98",
                 },
                 "ref": null,
-                "rendered": "35.98",
+                "rendered": "$35.98",
                 "type": "td",
               },
             ],
@@ -631,13 +631,13 @@ ShallowWrapper {
                   BTC
                 </td>,
                 <td>
-                  2018-May-07
+                  2018-05-07
                 </td>,
                 <td>
                   03:30 PM
                 </td>,
                 <td>
-                  33.56
+                  $33.56
                 </td>,
               ],
             },
@@ -659,10 +659,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "2018-May-07",
+                  "children": "2018-05-07",
                 },
                 "ref": null,
-                "rendered": "2018-May-07",
+                "rendered": "2018-05-07",
                 "type": "td",
               },
               Object {
@@ -681,10 +681,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "33.56",
+                  "children": "$33.56",
                 },
                 "ref": null,
-                "rendered": "33.56",
+                "rendered": "$33.56",
                 "type": "td",
               },
             ],
@@ -733,13 +733,13 @@ ShallowWrapper {
                 BTC
               </td>
               <td>
-                2018-May-07
+                2018-05-07
               </td>
               <td>
                 09:15 AM
               </td>
               <td>
-                34.98
+                $34.98
               </td>
             </tr>
             <tr>
@@ -747,13 +747,13 @@ ShallowWrapper {
                 BTC
               </td>
               <td>
-                2018-May-07
+                2018-05-07
               </td>
               <td>
                 10:45 AM
               </td>
               <td>
-                36.13
+                $36.13
               </td>
             </tr>
             <tr>
@@ -761,13 +761,13 @@ ShallowWrapper {
                 BTC
               </td>
               <td>
-                2018-May-07
+                2018-05-07
               </td>
               <td>
                 12:30 PM
               </td>
               <td>
-                37.01
+                $37.01
               </td>
             </tr>
             <tr>
@@ -775,13 +775,13 @@ ShallowWrapper {
                 BTC
               </td>
               <td>
-                2018-May-07
+                2018-05-07
               </td>
               <td>
                 02:00 PM
               </td>
               <td>
-                35.98
+                $35.98
               </td>
             </tr>
             <tr>
@@ -789,13 +789,13 @@ ShallowWrapper {
                 BTC
               </td>
               <td>
-                2018-May-07
+                2018-05-07
               </td>
               <td>
                 03:30 PM
               </td>
               <td>
-                33.56
+                $33.56
               </td>
             </tr>
           </tbody>,
@@ -928,13 +928,13 @@ ShallowWrapper {
                     BTC
                   </td>
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>
                   <td>
                     09:15 AM
                   </td>
                   <td>
-                    34.98
+                    $34.98
                   </td>
                 </tr>,
                 <tr>
@@ -942,13 +942,13 @@ ShallowWrapper {
                     BTC
                   </td>
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>
                   <td>
                     10:45 AM
                   </td>
                   <td>
-                    36.13
+                    $36.13
                   </td>
                 </tr>,
                 <tr>
@@ -956,13 +956,13 @@ ShallowWrapper {
                     BTC
                   </td>
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>
                   <td>
                     12:30 PM
                   </td>
                   <td>
-                    37.01
+                    $37.01
                   </td>
                 </tr>,
                 <tr>
@@ -970,13 +970,13 @@ ShallowWrapper {
                     BTC
                   </td>
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>
                   <td>
                     02:00 PM
                   </td>
                   <td>
-                    35.98
+                    $35.98
                   </td>
                 </tr>,
                 <tr>
@@ -984,13 +984,13 @@ ShallowWrapper {
                     BTC
                   </td>
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>
                   <td>
                     03:30 PM
                   </td>
                   <td>
-                    33.56
+                    $33.56
                   </td>
                 </tr>,
               ],
@@ -1008,13 +1008,13 @@ ShallowWrapper {
                     BTC
                   </td>,
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>,
                   <td>
                     09:15 AM
                   </td>,
                   <td>
-                    34.98
+                    $34.98
                   </td>,
                 ],
               },
@@ -1036,10 +1036,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-May-07",
+                    "children": "2018-05-07",
                   },
                   "ref": null,
-                  "rendered": "2018-May-07",
+                  "rendered": "2018-05-07",
                   "type": "td",
                 },
                 Object {
@@ -1058,10 +1058,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "34.98",
+                    "children": "$34.98",
                   },
                   "ref": null,
-                  "rendered": "34.98",
+                  "rendered": "$34.98",
                   "type": "td",
                 },
               ],
@@ -1077,13 +1077,13 @@ ShallowWrapper {
                     BTC
                   </td>,
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>,
                   <td>
                     10:45 AM
                   </td>,
                   <td>
-                    36.13
+                    $36.13
                   </td>,
                 ],
               },
@@ -1105,10 +1105,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-May-07",
+                    "children": "2018-05-07",
                   },
                   "ref": null,
-                  "rendered": "2018-May-07",
+                  "rendered": "2018-05-07",
                   "type": "td",
                 },
                 Object {
@@ -1127,10 +1127,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "36.13",
+                    "children": "$36.13",
                   },
                   "ref": null,
-                  "rendered": "36.13",
+                  "rendered": "$36.13",
                   "type": "td",
                 },
               ],
@@ -1146,13 +1146,13 @@ ShallowWrapper {
                     BTC
                   </td>,
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>,
                   <td>
                     12:30 PM
                   </td>,
                   <td>
-                    37.01
+                    $37.01
                   </td>,
                 ],
               },
@@ -1174,10 +1174,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-May-07",
+                    "children": "2018-05-07",
                   },
                   "ref": null,
-                  "rendered": "2018-May-07",
+                  "rendered": "2018-05-07",
                   "type": "td",
                 },
                 Object {
@@ -1196,10 +1196,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "37.01",
+                    "children": "$37.01",
                   },
                   "ref": null,
-                  "rendered": "37.01",
+                  "rendered": "$37.01",
                   "type": "td",
                 },
               ],
@@ -1215,13 +1215,13 @@ ShallowWrapper {
                     BTC
                   </td>,
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>,
                   <td>
                     02:00 PM
                   </td>,
                   <td>
-                    35.98
+                    $35.98
                   </td>,
                 ],
               },
@@ -1243,10 +1243,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-May-07",
+                    "children": "2018-05-07",
                   },
                   "ref": null,
-                  "rendered": "2018-May-07",
+                  "rendered": "2018-05-07",
                   "type": "td",
                 },
                 Object {
@@ -1265,10 +1265,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "35.98",
+                    "children": "$35.98",
                   },
                   "ref": null,
-                  "rendered": "35.98",
+                  "rendered": "$35.98",
                   "type": "td",
                 },
               ],
@@ -1284,13 +1284,13 @@ ShallowWrapper {
                     BTC
                   </td>,
                   <td>
-                    2018-May-07
+                    2018-05-07
                   </td>,
                   <td>
                     03:30 PM
                   </td>,
                   <td>
-                    33.56
+                    $33.56
                   </td>,
                 ],
               },
@@ -1312,10 +1312,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "2018-May-07",
+                    "children": "2018-05-07",
                   },
                   "ref": null,
-                  "rendered": "2018-May-07",
+                  "rendered": "2018-05-07",
                   "type": "td",
                 },
                 Object {
@@ -1334,10 +1334,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "33.56",
+                    "children": "$33.56",
                   },
                   "ref": null,
-                  "rendered": "33.56",
+                  "rendered": "$33.56",
                   "type": "td",
                 },
               ],
