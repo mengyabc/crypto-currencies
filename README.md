@@ -27,27 +27,30 @@ __Testing__
 npm test
 ```
 
-__Visural Testing__
-
-To run visual tests locally:
-
-```
-npm run test:visual
-```
-
-To update image snapshots locally:
-
-```
-npm run test:visual-update
-```
-
-
 __Build for production__
 ```
 npm run build
 ```
 
-## Responsive breakpoints:
+Overview
+--------
+
+__Front end__
+
+The front end implementation is based on React and Redux, with webpack as build tool.
+
+The app is hosted on AWS S3 without SSR.
+
+
+__Back end__
+
+The back end implementation is based on AWS lambda, AWS API gateway, and MongoDB Atlas.
+
+Data is stored and retrieved from MongoDB, which is integrated with AWS lambda.
+
+
+Responsive breakpoints
+----------------------
 ```
 {
   xs: '0',
@@ -58,7 +61,7 @@ npm run build
 }
 ```
 
-### Examples
+__Examples__
 ```
 @include media-breakpoint-up(sm)           { } // Small and up
 @include media-breakpoint-down(md)         { } // Medium and down
