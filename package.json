@@ -68,7 +68,7 @@
     "json-loader": "^0.5.7",
     "lodash": "^4.17.4",
     "moment": "^2.24.0",
-    "node-sass": "^4.8.3",
+    "node-sass": "^7.0.0",
     "optimize-css-assets-webpack-plugin": "^4.0.0",
     "postcss": "^6.0.19",
     "postcss-autoreset": "^2.0.2",
